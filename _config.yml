@@ -1,34 +1,36 @@
-title: My personal blog - Adam Neilson
-email: your-email@domain.com
+title: Rafael Audibert's Blog
+email: rbaudibert@inf.ufrgs.br
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My name is Rafael Baldasso Audibert, and I'm a 19 years old
+  CS Bsc. Student @ UFRGS, Brazil. Here I will write some random stuff,
+  that I hope you will enjoy reading as much as enjoy writing it.
 permalink: ':title/'
-baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://inf.ufrgs.br/~rbaudibert" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Adam Neilson # add your name
+author: Rafael Audibert # add your name
 author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+about-author: >
+  My name is Rafael Baldasso Audibert, and I'm a 19 years old
+  CS Bsc. Student @ UFRGS, Brazil. Here I will write some random stuff,
+  that I hope you will enjoy reading as much as enjoy writing it.
 
 # Contact links
-email: # Add your Email address
-phone: # Add your Phone number
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
-pinterest: # Add your Pinterest handle
+email: rbaudibert@inf.ufrgs.br
+phone: +55 (54) 99645-5959
+website: inf.ufrgs.br/~rbaudibert
+linkedin: rbaudibert
+github: rafaeelaudibert
+facebook: rbaudibert
+instagram: '@rafaaudibeert'
+pinterest: rafaeelaudibert
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: rbaudibert # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
