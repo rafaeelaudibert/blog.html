@@ -10,7 +10,7 @@ url: "https://inf.ufrgs.br/~rbaudibert" # the base hostname & protocol for your 
 
 # Author settings
 author: Rafael Audibert # add your name
-author-pic: adam-face.jpg
+author-pic: photo.jpg
 about-author: >
   My name is Rafael Baldasso Audibert, and I'm a 19 years old
   CS Bsc. Student @ UFRGS, Brazil. Here I will write some random stuff,
@@ -23,6 +23,7 @@ website: inf.ufrgs.br/~rbaudibert
 linkedin: rbaudibert
 github: rafaeelaudibert
 facebook: rbaudibert
+twitter: rbaudibert
 instagram: '@rafaaudibeert'
 pinterest: rafaeelaudibert
 
@@ -42,7 +43,7 @@ paginate_path: /page:num/
 # Build settings
 markdown: kramdown
 
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
