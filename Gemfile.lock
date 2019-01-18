@@ -66,6 +66,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
+  kramdown
 
 BUNDLED WITH
    1.17.1
