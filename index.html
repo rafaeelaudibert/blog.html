@@ -9,10 +9,13 @@ layout: home-page
       </a>
 
       <div class="post-card-body">
-        {% for tag in post.tags %}
+        {% for tag in post.main_tags %}
         <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
         {% endfor %}
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link">
+          <h3 class="post-card-title">{{post.title}}</h3>
+          <h3 class="post-card-series">{{post.series}}</h3>
+        </a>
       </div>
 
     </div>
