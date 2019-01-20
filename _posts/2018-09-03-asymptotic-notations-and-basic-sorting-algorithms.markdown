@@ -6,7 +6,7 @@ date:   2018-09-03 12:00:00 +0300
 description: >
  First post of a series of 3 about Sorting Algorithms,
  with a basic introduction about Asymptotic Notation. # Add post description (optional)
-img: asymptotic.jpg # Add image post (optional)
+img: sorting-1-main.jpg # Add image post (optional)
 tags: [Computer, Asymptotic, Efficiency, UFRGS, C, JavaScript]
 main_tags: [Asymptotic, Efficiency, JavaScript]
 js-files: [sorting-1.js]
