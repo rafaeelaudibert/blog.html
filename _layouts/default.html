@@ -7,8 +7,8 @@
   {% include javascripts.html %}
   {% include analytics.html %}
 
-  {% for js in page.js-files %}
-    <script src="/blog/assets/js/{{ js }}"></script>
+  {% for js-file in page.js-files %}
+  <script src="{{ site.baseurl }}/assets/js/{{ js-file }}"></script>
   {% endfor %}
 </body>
 

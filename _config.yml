@@ -1,12 +1,12 @@
 title: Rafael Audibert's Blog
 email: rbaudibert@inf.ufrgs.br
-description: > # this means to ignore newlines until "baseurl:"
+description: > 
   My name is Rafael Baldasso Audibert, and I'm a 19 years old
   CS Bsc. Student @ UFRGS, Brazil. Here I will write some random stuff,
   that I hope you will enjoy reading as much as enjoy writing it.
 permalink: ':title/'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://inf.ufrgs.br/~rbaudibert" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/~rbaudibert/blog" # the subpath of your site, e.g. /blog
+url: "https://inf.ufrgs.br/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Rafael Audibert # add your name
