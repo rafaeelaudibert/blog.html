@@ -34,7 +34,7 @@ mailchimp: # Add your MailChimp form identifier.
 discus_identifier: rbaudibert # Add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-133407132-1 # Google Analytics
 
 # Paginate
 paginate: 6
