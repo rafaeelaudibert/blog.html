@@ -14,7 +14,7 @@ author: Rafael Audibert # Add name author (optional)
 
 This is the second article, in a series of 3, on which we will talk about Sorting Algorithms with tons of charts. On this first one, we will see intermediate sorting algorithms with better time complexity. We will also have a playground at the end of the article,  with `async` JavaScript code running with a remote API, similar to the one you saw in the first article (but better).
 
-> The JavaScript code will run in an AWS server, which will be requested through an API call. The graphics data were generated with a code written in C, compiled with GCC version $$5.1.0$$ which can be downloaded in [this]() zip file containing the CSV data used as input.
+> The JavaScript code will run in an AWS server, which will be requested through an API call. The graphics data were generated with a code written in C, compiled with GCC version $$5.1.0$$ which can be downloaded in [this]({{site.baseurl}}/assets/zip/sorting-2.zip) zip file containing the CSV data used as input.
 
 
 ## Introduction 🔃
@@ -31,8 +31,7 @@ Talking about the first part of the article, in the folder with all the data, yo
 
 ### Quick Sort 🔁
 
-QuickSort is probably the most known and used sorting algorithm. It is used (with some variations) in most of the built-in sort algorithms of programming languages. It has a worst case time complexity of \(\Theta(n^2)\), but it occurs
-so rarely (if implemented in the right manner), that its average case time complexity is the so long searched $$\Theta(n\log(n))$$.
+QuickSort is probably the most known and used sorting algorithm. It is used (with some variations) in most of the built-in sort algorithms of programming languages. It has a worst case time complexity of $$\Theta(n^2)$$, but it occurs so rarely (if implemented the right way), that its average case time complexity is the so long searched $$\Theta(n\log(n))$$.
 
 It was used arrays varying from $$2^1$$ until $$2^{19}$$ (random generated numbers) to generate the data below, as we couldn't use larger arrays cause of recursion depth limit. The left y-axis shows the total recursive calls and the right one shows the time. As a reminder, the sorted charts may be a bit wrong in the time dataset, as explained in the latter article (TLDR: OS interruptions can cause this).
 
