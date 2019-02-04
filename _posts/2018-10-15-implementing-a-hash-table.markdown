@@ -12,7 +12,7 @@ js-files: [hash.js, sorting-3.js]
 author: Rafael Audibert # Add name author (optional)
 ---
 
-This is the third article, in a series of 3, on which we will talk about Sorting Algorithms with tons of charts. In this one, we will actually not speak about a sorting algorithm, I am sorry, but about hashing algorithms which will makes us able to build a Hash Table (think about a `dictionary` on Python). These kind of algorithms allow us to retrieve some data with an alphanumeric key, instead of numeric key, like we would do with an array. You will be able to experiment it in the bottom of the page, adding information to the hash, and seeing if it is available or not with an incredible $$\Theta(1)$$ time complexity.
+This is the third as lat article on which we will talk about Sorting Algorithms with tons of charts. In this one, we will actually not speak about a sorting algorithm, I am sorry, but about hashing algorithms which will make us able to build a Hash Table (think about a `dictionary` on Python). This kind of algorithms allows us to retrieve some data with an alphanumeric key, instead of a numeric key, as we would do with an array. You will be able to experiment it in the bottom of the page, adding information to the hash, and seeing if it is available or not with an incredible $$\Theta(1)$$ time complexity.
 
 > This time, the JavaScript code will run in your own browser, as the Hash Table is size-limited to 1009 slots, so it won't eat all of your memory.
 
@@ -20,13 +20,13 @@ This is the third article, in a series of 3, on which we will talk about Sorting
 
 ## Introduction 🔃
 
-Hash is an incredible tool to acess information through an alphanumeric key (can be extended to more types of keys, but only alphanumerics one will be covered in this report). It is natively implemented in most of the high level languages (`dictionaries` in Python, `normal objects` in JavaScript) and even some implementation in kinda low-level languages (such as the `map` data structure in C++). Which is pretty awesome is that it has an $$\Theta(1)$$ time complexity, which means that no matter how many data are in the Hash Table, we can acess any value with a constant time.
+Hash is an incredible tool to access information through an alphanumeric key (can be extended to more types of keys, but only alphanumerics ones will be covered in this report). It is natively implemented in most of the high-level languages (`dictionaries` in Python, `normal objects` in JavaScript) and even some implementation in kinda low-level languages (such as the `map` data structure in C++ - if you consider C++ a low-level language). Which is pretty awesome is that it has an $$\Theta(1)$$ time complexity, which means that no matter how many data are in the Hash Table, we can access any value with a constant time.
         
 <br />
 
 ## Hashing functions 🔃
 
-In the texts/codes below, when we talk about hashing functions we are talking about the function which we pass a string and it returns us a key which will be used to acess the hash table. For this code, we used 2 differents hashing functions, as can be seen in the code below. The first one is the primary one, while the second one is used with the rehashing algorithm, which will be explained below.
+In the texts/codes below, when we talk about hashing functions we are talking about the function which we pass a string and it returns us a key which will be used to access the hash table. For this code, we used 2 different hashing functions, as can be seen in the code below. The first one is the primary one, while the second one is used with the rehashing algorithm, which will be explained below.
 
 ![Hash1Code]({{site.baseurl}}/assets/img/sorting-3-hash1.png)
 
@@ -36,8 +36,8 @@ In the texts/codes below, when we talk about hashing functions we are talking ab
 
 ### Analyzing hashing algorithms 🔃
 
-Three types of hashing algorithms will be used, divided in two categories: Open and Closed Hashing. Talking about Open Hashing we will have the Linear Search algorithm, which tries to verify the next position of the Hash Table, if the actual is already filled, and the Rehashing Algorithm, which has an increment calculated through another hashing function, trying to minimize the conflicts. The closed hashing algorithm used is the Listing Algorithm, which creates a list in each of the possible hashed key values instead of trying to find another place to insert it. In the chart below we can see the comparison between the three. They were tested against <a href="dataset.txt">this</a> names database when
-inserting, and <a href="queries.txt">this</a> names when searching, varying the table size, and the data shown is the quantity of colision in the insertion.
+Three types of hashing algorithms will be used, divided into two categories: Open and Closed Hashing. Talking about Open Hashing we will have the Linear Search algorithm, which tries to verify the next position of the Hash Table if the actual is already filled, and the Rehashing Algorithm, which has an increment calculated through another hashing function, trying to minimize the conflicts. The closed hashing algorithm used is the Listing Algorithm, which creates a list in each of the possible hashed key values instead of trying to find another place to insert it. In the chart below we can see the comparison between the three. They were tested against <a href="dataset.txt">this</a> names database when
+inserting, and <a href="queries.txt">this</a> names when searching, varying the table size, and the data showed is the quantity of collision in the insertion.
 
 <div class='canvas-inside'>
   <canvas id="hash-1" class="chartjs" width="640" height="400"></canvas>
@@ -47,7 +47,7 @@ inserting, and <a href="queries.txt">this</a> names when searching, varying the 
 
 ## Playground ⏳
 
-This time we only made JavaScript code, as it would be kinda hard to deal with strings in C. You can test the rehashing algorithm below. Make some exploration and discover what you can do with it. By default, the table has roughly 1000 spaces, so don't insert too much 'cause it may crash as I didn't totally handled when the HashTable is full to be able to resize it. Hope you enjoyed it again, and see you next post!
+This time we only made JavaScript code, as it would be kinda hard to deal with strings in C. You can test the rehashing algorithm below. Make some exploration and discover what you can do with it. By default, the table has roughly 1000 spaces, so don't insert too much 'cause it may crash as I didn't totally handle when the HashTable is full to be able to resize it. Hope you enjoyed it again, and see you next post!
 
 <div class="card">
   <div class="card-body">
