@@ -8,6 +8,7 @@ description: >
 img: sorting-3-main.jpg # Add image post (optional)
 tags: [Computer, Sorting, Efficiency, HashTable, Dictionaries, UFRGS, C, JavaScript]
 main_tags: [Dictionaries, HashTable, JavaScript]
+reading_time: '3min'
 js-files: [hash.js, sorting-3.js]
 author: Rafael Audibert # Add name author (optional)
 ---
@@ -22,7 +23,7 @@ This is the third as lat article on which we will talk about Sorting Algorithms 
 ## Introduction 🔃
 
 Hash is an incredible tool to access information through an alphanumeric key (can be extended to more types of keys, but only alphanumerics ones will be covered in this report). It is natively implemented in most of the high-level languages (`dictionaries` in Python, `normal objects` in JavaScript) and even some implementation in kinda low-level languages (such as the `map` data structure in C++ - if you consider C++ a low-level language). Which is pretty awesome is that it has an $$\Theta(1)$$ time complexity, which means that no matter how many data are in the Hash Table, we can access any value with a constant time.
-        
+
 <br />
 
 ## Hashing functions 🔃

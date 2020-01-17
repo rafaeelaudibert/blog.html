@@ -9,6 +9,7 @@ description: >
 img: sorting-1-main.jpg # Add image post (optional)
 tags: [Computer, Asymptotic, Efficiency, UFRGS, C, JavaScript]
 main_tags: [Asymptotic, Efficiency, JavaScript]
+reading_time: '18min'
 js-files: [sorting-1.js]
 author: Rafael Audibert # Add name author (optional)
 ---
@@ -120,7 +121,7 @@ First, we must analyze and understand the $$\Theta$$(theta) asymptotic notation 
 
 In this first article, we will analyze the basic sorting algorithms: Bubble Sort, Insertion Sort (with its variant) and Shell Sort (with different 'sequences'). All the analysis will be made sorting arrays of unsigned integers, using two languages: C (which will have a better performance, in most cases - although not in all cases) - the chart language - and JavaScript - the playground language. We will analyze the time spent to sort the array, as well as the changes/swaps needed to do it. For Sorted and Reversed arrays, the benchmark was run only once, but to generate the Random data, each data sample was run $$12$$ times or $$2$$ minutes, whichever took less time, so that we were able to make something like an average, to avoid samples where we got a more or less ordered random arrangement of values in the array.
 
-Another point about the random array generation is that its allocation + filling-the-array-with-values time was taken in consideration in the time measure (for sake of comparison it doesn't matter as every sample has that extra "linear" time). 
+Another point about the random array generation is that its allocation + filling-the-array-with-values time was taken in consideration in the time measure (for sake of comparison it doesn't matter as every sample has that extra "linear" time).
 
 **Disclaimer:** Some weird values can be seen in the sorted array examples, partially because we just ran it once, and it could have been blocked by some OS interruption, taking longer than it would be expected, looking for us as a strange and unexpected curve in the chart.
 
@@ -214,9 +215,9 @@ Let's start talking about the Shell, thinking about the Insertion. What is it re
 
 It uses something called `sequences` to order different pieces of the array at the same time (you can see "all" of them [here](https://en.wikipedia.org/wiki/Shellsort) (at least, the more famous ones). Here we used three different sequences, as follow:
 
-  * Shell Sequence _(1, 2, 4, 8, 16, 32, ...)_
-  * Knuth Sequence _(1, 4, 13, 40, 121, 364, ...)_
-  * Tokuda Sequence _(1, 4, 9, 20, 46, 103, ...)_
+* Shell Sequence _(1, 2, 4, 8, 16, 32, ...)_
+* Knuth Sequence _(1, 4, 13, 40, 121, 364, ...)_
+* Tokuda Sequence _(1, 4, 9, 20, 46, 103, ...)_
 
 It is expected that each sequence makes the ShellSort faster (although, as we will see, the last two have just a small difference, not exactly one being better than the other), as they tend to decrease their time-complexity, with the Tokuda Sequence having a time-complexity not yet calculated, but probably better than the Knuth one ( $$O(N^{1+\sqrt{ {8 \ln{(5/2)}} \over {\ln{(N)}} }})$$ - too hard I know).
 
