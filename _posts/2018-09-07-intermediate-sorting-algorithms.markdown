@@ -12,10 +12,10 @@ js-files: [sorting-2.js]
 author: Rafael Audibert # Add name author (optional)
 ---
 
+<!-- markdownlint-disable-file MD033 -->
 This is the second article, in a series of 3, on which we will talk about Sorting Algorithms with tons of charts. On this first one, we will see intermediate sorting algorithms with better time complexity. We will also have a playground at the end of the article,  with `async` JavaScript code running with a remote API, similar to the one you saw in the first article (but better).
 
 > The JavaScript code will run in an AWS server, which will be requested through an API call. The graphics data were generated with a code written in C, compiled with GCC version $$5.1.0$$ which can be downloaded in [this]({{site.baseurl}}/assets/zip/sorting-2.zip) zip file containing the CSV data used as input.
-
 
 ## Introduction 🔃
 

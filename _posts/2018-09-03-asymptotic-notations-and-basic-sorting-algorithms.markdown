@@ -12,10 +12,10 @@ main_tags: [Asymptotic, Efficiency, JavaScript]
 js-files: [sorting-1.js]
 author: Rafael Audibert # Add name author (optional)
 ---
+
+<!-- markdownlint-disable-file MD033 -->
 This is the first article, in a series of 3, on which we will talk about Sorting Algorithms with tons of charts. On this first one, we will also make an exploration about asymptotic complexity in general. We will also have a playground at the end of the article, running with `async` JavaScript code, which will be emulated live on this page, through an API connected to a backend server. You will be able to experiment some stuff (check it later).
 > The JavaScript code will run in an AWS server, which will be requested through an API call. The graphics data were generated with a code written in C, compiled with GCC version $$5.1.0$$ which can be downloaded in [this]({{site.baseurl}}/assets/zip/sorting-1.zip) zip file containing the CSV data used as input.
-
-
 
 ## Analyzing complexity time cases ⏱️
 
@@ -272,7 +272,6 @@ Wow, we have a lot of data here! As you can see, ShellSort is pretty BAD at sort
 Weirdly enough, Knuth's and Tokuda's sequences got pretty close not exactly saying which one is better, which is plausible, as Tokuda one doesn't have a time-complexity well-established. Anyway, we will have some comparisons to see that difference better in some charts below.
 
 <br/><br/>
-
 
 ### Conclusion and + Charts 👍
 

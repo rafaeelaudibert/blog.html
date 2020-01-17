@@ -12,6 +12,7 @@ js-files: [hash.js, sorting-3.js]
 author: Rafael Audibert # Add name author (optional)
 ---
 
+<!-- markdownlint-disable-file MD033 -->
 This is the third as lat article on which we will talk about Sorting Algorithms with tons of charts. In this one, we will actually not speak about a sorting algorithm, I am sorry, but about hashing algorithms which will make us able to build a Hash Table (think about a `dictionary` on Python). This kind of algorithms allows us to retrieve some data with an alphanumeric key, instead of a numeric key, as we would do with an array. You will be able to experiment it in the bottom of the page, adding information to the hash, and seeing if it is available or not with an incredible $$\Theta(1)$$ time complexity.
 
 > This time, the JavaScript code will run in your own browser, as the Hash Table is size-limited to 1009 slots, so it won't eat all of your memory.
