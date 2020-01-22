@@ -7,7 +7,7 @@
   "author": "Rafael Audibert",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.26.5",
     "child_process": "^1.0.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
@@ -15,7 +15,7 @@
     "gulp-imagemin": "^5.0.0",
     "gulp-sass": "^3.1.0",
     "imagemin-pngquant": "^6.0.0",
-    "snyk": "^1.122.0"
+    "snyk": "^1.214.0"
   },
   "scripts": {
     "dev": "node_modules\\.bin\\gulp watch",
