@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -10,3 +10,30 @@ patch:
         patched: '2019-01-19T21:25:50.935Z'
     - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
         patched: '2019-01-19T21:25:50.935Z'
+  SNYK-JS-LODASH-567746:
+    - snyk > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > snyk-php-plugin > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T01:02:49.550Z'
