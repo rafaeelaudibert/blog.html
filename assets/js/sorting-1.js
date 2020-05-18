@@ -378,7 +378,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/bubbleSorted.csv",
+          url: "/assets/csv/bubbleSorted.csv",
           dataType: "text",
           success: data => {
             const {
@@ -447,7 +447,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/bubbleReversed.csv",
+          url: "/assets/csv/bubbleReversed.csv",
           dataType: "text",
           success: data => {
             const {
@@ -516,7 +516,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/bubbleRandom.csv",
+          url: "/assets/csv/bubbleRandom.csv",
           dataType: "text",
           success: data => {
             const {
@@ -600,7 +600,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/insertionSorted.csv",
+          url: "/assets/csv/insertionSorted.csv",
           dataType: "text",
           success: data => {
             const {
@@ -668,7 +668,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/insertionReversed.csv",
+          url: "/assets/csv/insertionReversed.csv",
           dataType: "text",
           success: data => {
             const {
@@ -737,7 +737,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/insertionRandom.csv",
+          url: "/assets/csv/insertionRandom.csv",
           dataType: "text",
           success: data => {
             const {
@@ -821,7 +821,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/binaryInsertionSorted.csv",
+          url: "/assets/csv/binaryInsertionSorted.csv",
           dataType: "text",
           success: data => {
             const {
@@ -889,7 +889,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/binaryInsertionReversed.csv",
+          url: "/assets/csv/binaryInsertionReversed.csv",
           dataType: "text",
           success: data => {
             const {
@@ -958,7 +958,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/binaryInsertionRandom.csv",
+          url: "/assets/csv/binaryInsertionRandom.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1042,7 +1042,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell0Sorted.csv",
+          url: "/assets/csv/shell0Sorted.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1110,7 +1110,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell0Reversed.csv",
+          url: "/assets/csv/shell0Reversed.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1179,7 +1179,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell0Random.csv",
+          url: "/assets/csv/shell0Random.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1262,7 +1262,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell1Sorted.csv",
+          url: "/assets/csv/shell1Sorted.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1330,7 +1330,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell1Reversed.csv",
+          url: "/assets/csv/shell1Reversed.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1399,7 +1399,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell1Random.csv",
+          url: "/assets/csv/shell1Random.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1482,7 +1482,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell2Sorted.csv",
+          url: "/assets/csv/shell2Sorted.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1550,7 +1550,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell2Reversed.csv",
+          url: "/assets/csv/shell2Reversed.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1619,7 +1619,7 @@ $('document')
       .ready(function() {
         $.ajax({
           type: "GET",
-          url: "/~rbaudibert/blog/assets/csv/shell2Random.csv",
+          url: "/assets/csv/shell2Random.csv",
           dataType: "text",
           success: data => {
             const {
@@ -1700,12 +1700,12 @@ $('document')
         });
       });
 
-    $.when($.ajax('/~rbaudibert/blog/assets/csv/bubbleSorted.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/insertionSorted.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/binaryInsertionSorted.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell0Sorted.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell1Sorted.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell2Sorted.csv'))
+    $.when($.ajax('/assets/csv/bubbleSorted.csv'),
+        $.ajax('/assets/csv/insertionSorted.csv'),
+        $.ajax('/assets/csv/binaryInsertionSorted.csv'),
+        $.ajax('/assets/csv/shell0Sorted.csv'),
+        $.ajax('/assets/csv/shell1Sorted.csv'),
+        $.ajax('/assets/csv/shell2Sorted.csv'))
       .done((...data) => {
         let parsedData = data.map(each => processData(each[0]));
         let labels = parsedData.map(sort => transpose(sort['lines'])[0]);
@@ -1804,12 +1804,12 @@ $('document')
           })
       })
 
-    $.when($.ajax('/~rbaudibert/blog/assets/csv/bubbleReversed.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/insertionReversed.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/binaryInsertionReversed.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell0Reversed.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell1Reversed.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell2Reversed.csv'))
+    $.when($.ajax('/assets/csv/bubbleReversed.csv'),
+        $.ajax('/assets/csv/insertionReversed.csv'),
+        $.ajax('/assets/csv/binaryInsertionReversed.csv'),
+        $.ajax('/assets/csv/shell0Reversed.csv'),
+        $.ajax('/assets/csv/shell1Reversed.csv'),
+        $.ajax('/assets/csv/shell2Reversed.csv'))
       .done((...data) => {
         let parsedData = data.map(each => processData(each[0]));
         let labels = parsedData.map(sort => transpose(sort['lines'])[0]);
@@ -1908,12 +1908,12 @@ $('document')
           })
       })
 
-    $.when($.ajax('/~rbaudibert/blog/assets/csv/bubbleRandom.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/insertionRandom.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/binaryInsertionRandom.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell0Random.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell1Random.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell2Random.csv'))
+    $.when($.ajax('/assets/csv/bubbleRandom.csv'),
+        $.ajax('/assets/csv/insertionRandom.csv'),
+        $.ajax('/assets/csv/binaryInsertionRandom.csv'),
+        $.ajax('/assets/csv/shell0Random.csv'),
+        $.ajax('/assets/csv/shell1Random.csv'),
+        $.ajax('/assets/csv/shell2Random.csv'))
       .done((...data) => {
         let parsedData = data.map(each => processData(each[0]));
         let labels = parsedData.map(sort => transpose(sort['lines'])[0]);
@@ -2012,9 +2012,9 @@ $('document')
           })
       })
 
-    $.when($.ajax('/~rbaudibert/blog/assets/csv/shell0Random.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell1Random.csv'),
-        $.ajax('/~rbaudibert/blog/assets/csv/shell2Random.csv'))
+    $.when($.ajax('/assets/csv/shell0Random.csv'),
+        $.ajax('/assets/csv/shell1Random.csv'),
+        $.ajax('/assets/csv/shell2Random.csv'))
       .done((...data) => {
         let parsedData = data.map(each => processData(each[0]));
         let labels = parsedData.map(sort => transpose(sort['lines'])[0]);

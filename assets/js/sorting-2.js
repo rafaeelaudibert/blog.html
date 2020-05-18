@@ -50,7 +50,7 @@ $(document)
 		//Quick Sort
 		$.ajax({
 			type: "GET",
-			url: "/~rbaudibert/blog/assets/csv/quickSort200.csv",
+			url: "/assets/csv/quickSort200.csv",
 			dataType: "text",
 			success: data => {
 				const {
@@ -118,7 +118,7 @@ $(document)
 		//Merge Sort
 		$.ajax({
 			type: "GET",
-			url: "/~rbaudibert/blog/assets/csv/mergeSort200.csv",
+			url: "/assets/csv/mergeSort200.csv",
 			dataType: "text",
 			success: data => {
 				const {
@@ -185,7 +185,7 @@ $(document)
 		//Merge Sort
 		$.ajax({
 			type: "GET",
-			url: "/~rbaudibert/blog/assets/csv/radixSort200.csv",
+			url: "/assets/csv/radixSort200.csv",
 			dataType: "text",
 			success: data => {
 				const {
@@ -250,9 +250,9 @@ $(document)
 		});
 
 		// Comparison
-		$.when($.ajax('/~rbaudibert/blog/assets/csv/quickSort200.csv'),
-				$.ajax('/~rbaudibert/blog/assets/csv/mergeSort200.csv'),
-				$.ajax('/~rbaudibert/blog/assets/csv/radixSort200.csv'))
+		$.when($.ajax('/assets/csv/quickSort200.csv'),
+				$.ajax('/assets/csv/mergeSort200.csv'),
+				$.ajax('/assets/csv/radixSort200.csv'))
 			.done((...data) => {
 				let parsedData = data.map(each => processData(each[0]));
 				let labels = parsedData.map(sort => transpose(sort['lines'])[0]);
@@ -321,9 +321,9 @@ $(document)
 
 		//DATA STRUCTURES
 		//Quick Sort
-		$.when($.ajax('/~rbaudibert/blog/assets/csv/quickSortFiles200.csv'),
-				$.ajax('/~rbaudibert/blog/assets/csv/mergeArrays200.csv'),
-				$.ajax('/~rbaudibert/blog/assets/csv/selectionTree200.csv'))
+		$.when($.ajax('/assets/csv/quickSortFiles200.csv'),
+				$.ajax('/assets/csv/mergeArrays200.csv'),
+				$.ajax('/assets/csv/selectionTree200.csv'))
 			.done((...data) => {
 				let parsedData = data.map(each => processData(each[0]));
 				let labels = parsedData.map(sort => transpose(sort['lines'])[0]);
