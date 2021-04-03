@@ -1,5 +1,5 @@
 # Personal Blog build with Jekyll
 
-Forked from [Adam Blog](https://github.com/artemsheludko/adam-blog), I use this static website generator, built with Jekyll, to generate the code for my blog currently hosted [here](https://inf.ufrgs.br/~rbaudibert/blog/).
+Blog layout forked from [Adam Blog](https://github.com/artemsheludko/adam-blog).
 
-Hope you enjoy it!
+The blog is currently hosted [here](https://blog.rafaaudibert.dev/).

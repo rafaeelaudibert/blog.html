@@ -31,7 +31,7 @@ $(document)
 	.ready(() => {
 		$.ajax({
 			type: "GET",
-			url: "/~rbaudibert/blog/assets/csv/hash.csv",
+			url: "/assets/csv/hash.csv",
 			dataType: "text",
 			success: data => {
 				const {

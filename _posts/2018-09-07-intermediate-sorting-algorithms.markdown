@@ -8,14 +8,15 @@ description: >
 img: sorting-2-main.jpg # Add image post (optional)
 tags: [Computer, Sorting, Efficiency, UFRGS, C, JavaScript]
 main_tags: [Sorting, Efficiency, JavaScript]
+reading_time: '9min'
 js-files: [sorting-2.js]
 author: Rafael Audibert # Add name author (optional)
 ---
 
+<!-- markdownlint-disable-file MD033 -->
 This is the second article, in a series of 3, on which we will talk about Sorting Algorithms with tons of charts. On this first one, we will see intermediate sorting algorithms with better time complexity. We will also have a playground at the end of the article,  with `async` JavaScript code running with a remote API, similar to the one you saw in the first article (but better).
 
 > The JavaScript code will run in an AWS server, which will be requested through an API call. The graphics data were generated with a code written in C, compiled with GCC version $$5.1.0$$ which can be downloaded in [this]({{site.baseurl}}/assets/zip/sorting-2.zip) zip file containing the CSV data used as input.
-
 
 ## Introduction 🔃
 
@@ -82,7 +83,7 @@ Its basic idea is that it uses $$10$$ stacks, to put each number in a different 
 
 <br/>
 
-It's kinda interesting because RadixSort doesn't look THAT fast if we compare with the others which we tried before (we have a chart below). It is really nice, because it actually has no recursion, being purely iterative, and doesn't make a single comparison, just a huge numerical manipulation, which is really impressive. That algorithm is called LSD Radix Sort (LSD stands for least-significant-digit) because we order according to the least significant digit before. If we would sort it with an MSD RadixSort, we would need to change our code, and add some comparisons, because just ordering from the most to the least significant digit, wouldn't sort the numbers accordingly. RadixSort has a 0.02 seconds standard deviation, which is pretty low, similar to the others. The standard deviation of recursive calls is 0, as it doesn't make any recursion or comparison at all.        
+It's kinda interesting because RadixSort doesn't look THAT fast if we compare with the others which we tried before (we have a chart below). It is really nice, because it actually has no recursion, being purely iterative, and doesn't make a single comparison, just a huge numerical manipulation, which is really impressive. That algorithm is called LSD Radix Sort (LSD stands for least-significant-digit) because we order according to the least significant digit before. If we would sort it with an MSD RadixSort, we would need to change our code, and add some comparisons, because just ordering from the most to the least significant digit, wouldn't sort the numbers accordingly. RadixSort has a 0.02 seconds standard deviation, which is pretty low, similar to the others. The standard deviation of recursive calls is 0, as it doesn't make any recursion or comparison at all.
 
 <br/>
 
