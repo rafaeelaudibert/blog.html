@@ -7,20 +7,21 @@
   "author": "Rafael Audibert",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.26.9",
+    "browser-sync": "^2.26.14",
     "child_process": "^1.0.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cache": "^0.4.6",
-    "gulp-imagemin": "^5.0.0",
+    "gulp-imagemin": "^6.1.0",
     "gulp-sass": "^3.1.0",
     "imagemin-pngquant": "^6.0.0",
-    "snyk": "^1.122.0"
+    "snyk": "^1.161.1"
   },
   "scripts": {
     "dev": "node_modules\\.bin\\gulp watch",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }
